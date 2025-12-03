@@ -1,0 +1,57 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOdPBLGpZhtaLMHP0HAZoKe",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/251020904789-ux/h-c-t-p/blob/main/vi%E1%BA%BFt%20m%E1%BB%99t%20ch%C6%B0%C6%A1ng%20tr%C3%ACnh%20bython%20%C4%91%E1%BB%83%20t%C3%ADnh%20t%E1%BB%95ng%20c%C3%A1c%20s%E1%BB%91%20t%E1%BB%AB%200%20%C4%91%E1%BA%BFn%20m%E1%BB%99t%20s%E1%BB%91%20nguy%C3%AAn%20d%C6%B0%C6%A1ng%20n%20%C4%91%C6%B0%E1%BB%A3c%20nh%E1%BA%ADp%20v%C3%A0o%20t%E1%BB%AB%20b%C3%A0n%20ph%C3%ADm%20s%E1%BB%AD%20d%E1%BB%A5ng%20v%C3%B2ng%20l%E1%BA%B7p%20for%20%C4%91%E1%BB%83%20th%E1%BB%B1c%20hi%E1%BB%87n%20c%E1%BB%99ng%20d%E1%BB%93n%20c%C3%A1c%20s%E1%BB%91%20t%E1%BB%AB%200%20%C4%91%E1%BA%BFn%20n\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n = 14 # Gán trực tiếp giá trị 14 cho n\n",
+        "tong = 0\n",
+        "for i in range(n + 1):  # chạy từ 0 đến n\n",
+        "    tong += i\n",
+        "print(\"Tổng các số từ 0 đến\", n, \"là:\", tong)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1OaKRRbnnC8W",
+        "outputId": "af0f26fd-74fe-4bbf-c94f-b55ed11fec65"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Tổng các số từ 0 đến 14 là: 105\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
